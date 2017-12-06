@@ -15,11 +15,11 @@ namespace menu
             int number;
             do
             {
-                Console.WriteLine("Please input number:");
-                Console.WriteLine("1. for cicle: ");
-                Console.WriteLine("2. for rectangle :");
-                Console.WriteLine("3. show shapes :");
-                Console.WriteLine("0. exit");
+                Console.WriteLine("Моля въведи число :");
+                Console.WriteLine("1. за кръг : ");
+                Console.WriteLine("2. за правоъгълник :");
+                Console.WriteLine("3. покажи фигурите :");
+                Console.WriteLine("0. изход");
                 number = int.Parse(Console.ReadLine());
                 switch (number)
                 {
@@ -54,7 +54,7 @@ namespace menu
                         }
                         break;
                             default:
-                        Console.WriteLine("Wrong num");
+                        Console.WriteLine("грешно число");
                         break;
                 }
             }
